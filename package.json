@@ -1,0 +1,26 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisMarioSolano/festival-musica.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Luis Mario Solano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisMarioSolano/festival-musica/issues"
+  },
+  "homepage": "https://github.com/LuisMarioSolano/festival-musica#readme",
+  "devDependencies": {
+    "sass": "^1.59.2"
+  }
+}
