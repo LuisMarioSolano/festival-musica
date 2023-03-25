@@ -20,7 +20,7 @@ function css(done) {
 }
 
 
-function Imagenes(done) {
+function imagenes(done) {
     const opciones = {
         optimizationLevel: 3
     }
@@ -52,4 +52,4 @@ function dev(done) {
 exports.css = css;
 exports.imagenes = imagenes;
 exports.versionWebp = versionWebp;
-exports.dev = parallel (versionWebp, dev);
+exports.dev = parallel (imagenes, versionWebp, dev);
