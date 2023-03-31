@@ -9,6 +9,9 @@
 }
 
 .galeria-imagenes {
+    &:hover {
+        cursor: pointer;
+    }
     @include m.resetear-lista;
     @include m.grid (2, 2rem);
     
